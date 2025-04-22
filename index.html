@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include 'config.php'; ?>
+    <title>Mamadou GNING</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Mamadou <span class="gning">GNING</span></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="carousel-container" id="accueil">
+        <div class="carousel-slide">
+            <div class="slide active">
+                <img src="gning1.jpg" alt="Projet 1">
+                <div class="slide-content" id="Projet1">
+                    <h1>Bienvenue sur mon portfolio !</h1>
+                    <p>Je conçois des interfaces web dynamiques, accessibles et performantes,<br> 
+                        avec une attention particulière portée aux détails et à l’expérience utilisateur.
+                        Entre HTML, CSS, JavaScript et frameworks comme React ou Vue,<br> 
+                        je donne vie aux maquettes et transforme les idées en applications fluides et fonctionnelles.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="gning2.jpg" alt="Projet 2">
+                <div class="slide-content" id="Projet2">
+                    <h1>Développement Web</h1>
+                    <p>Des solutions modernes et responsive</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="gning3.jpg" alt="Projet 3">
+                <div class="slide-content" id="Projet3">
+                    <h1>Design Innovant</h1>
+                    <p>Des interfaces intuitives et élégantes</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="carousel-indicators"></div>
+        <button class="carousel-prev">&#10094;</button>
+        <button class="carousel-next">&#10094;</button>
+    </section>
+
+
+    <section id="projets" class="projets-section">
+        <h2>Mes Projets Récents</h2>
+        <div class="projets-container">
+            <!-- Projet 1 -->
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="projet1.PNG" alt="Projet Web">
+                    <div class="projet-overlay">
+                        <button class="voir-projet"><a href="https://gning221.github.io/SAPORAL/">Visiter</a></button>
+                    </div>
+                </div>
+                <div class="projet-content">
+                    <h3>Site E-Learning</h3>
+                    <p>Transformez votre avenir avec l'apprentissage en ligne.</p>
+                    <div class="projet-technos">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="https://gning221.github.io/SAPORAL/" class="demo-link">Démo</a>
+                        <a href="https://github.com/GNING221/SAPORAL.git" class="code-link">Code</a>
+                    </div>
+                </div>
+            </article>
+    
+            <!-- Projet 2 -->
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="projet2.PNG" alt="Application Mobile">
+                    <div class="projet-overlay">
+                        <button class="voir-projet"><a href="https://gning221.github.io/podcast/">Visiter</a></button>
+                    </div>
+                </div>
+                <div class="projet-content">
+                    <h3>Studio Podcast</h3>
+                    <p>Bienvenue chez vous
+                        Le podcast qui vous aide à réaliser vos projets.
+                        Rejoignez-nous pour apprendre et partager.</p>
+                    <div class="projet-technos">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="https://gning221.github.io/podcast/" class="demo-link">Démo</a>
+                        <a href="https://github.com/GNING221/podcast" class="code-link">Code</a>
+                    </div>
+                </div>
+            </article>
+    
+            <!-- Projet 3 -->
+            <article class="projet-card">
+                <div class="projet-image">
+                    <img src="projet3.PNG" alt="Docplanner">
+                    <div class="projet-overlay">
+                        <button class="voir-projet"><a href="https://gning221.github.io/docplannerr/">Visiter</a></button>
+                    </div>
+                </div>
+                <div class="projet-content">
+                    <h3>Docplanner</h3>
+                    <p>Nous souhaitons que les patients trouvent le médecin idéal et prennent rendez-vous en toute simplicité.</p>
+                    <div class="projet-technos">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                    <div class="projet-links">
+                        <a href="https://gning221.github.io/docplannerr/" class="demo-link">Démo</a>
+                        <a href="https://github.com/GNING221/docplannerr" class="code-link">Code</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- COMPETENCES -->
+
+    <section id="competences" class="competences-section">
+        <h2>Mes Compétences</h2>
+        <div class="competences-container">
+            <!-- Carte Front-end -->
+            <div class="competence-card">
+                <div class="competence-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Développement Front-end</h3>
+                <div class="competence-list">
+                    <div class="skill-item">
+                        <span class="skill-name">HTML5</span>
+                        <div class="skill-bar">
+                            <div class="skill-level html">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS3</span>
+                        <div class="skill-bar">
+                            <div class="skill-level css">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level js">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carte Back-end -->
+            <div class="competence-card">
+                <div class="competence-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Compétences Technique</h3>
+                <div class="competence-list">
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-level node">75%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <div class="skill-bar">
+                            <div class="skill-level python">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Git</span>
+                        <div class="skill-bar">
+                            <div class="skill-level sql">65%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carte Outils -->
+            <div class="competence-card">
+                <div class="competence-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Outils Technique</h3>
+                <div class="competence-list">
+                    <div class="skill-item">
+                        <span class="skill-name">Wordpress</span>
+                        <div class="skill-bar">
+                            <div class="skill-level git">85%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Powerpoint</span>
+                        <div class="skill-bar">
+                            <div class="skill-level react">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Excel</span>
+                        <div class="skill-bar">
+                            <div class="skill-level figma">75%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Contactez-moi</h2>
+                <form id="contactForm" action="https://formspree.io/f/mblgekdr" method="POST">
+                    <input type="hidden" name="_replyto" value="gningmamadou22@gmail.com">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Nom Complet</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Adresse Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Sujet</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Envoyer le message</button>
+                </form>
+            </div>
+    
+            <div class="contact-info">
+                <h2>Informations de contact</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Adresse</h3>
+                        <p>Dakar, Sénégal</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p>+221 77 111 92 51</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>gningmamadou22@gmail.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/GNING221"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mamadou-gning-767802337/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/mamadougning14"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <!-- Ajouter avant la fermeture du </body> -->
+<footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>Mamadou GNING</h3>
+            <p>Développeur passionné créant des solutions web modernes et innovantes.</p>
+        </div>
+        
+        <div class="footer-section links">
+            <h3>Liens Rapides</h3>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section social">
+            <h3>Réseaux Sociaux</h3>
+            <div class="social-icons">
+                <a href="https://x.com/mamadougning14" target="_blank" class="icon twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mamadou-gning-767802337/" target="_blank" class="icon linkedin">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/meguamofun.toplyke" target="_blank" class="icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 Mamadou GNING. Tous droits réservés.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
